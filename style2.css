@@ -1,0 +1,27 @@
+#employeePhoto {
+    width: 18em;
+    height: 18em;
+    object-fit: cover;
+}
+
+#employee-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+#employee-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 36em;
+    height: 18em;
+    border: 1px solid black;
+}
+
+ul {
+    list-style-type: none;
+}
