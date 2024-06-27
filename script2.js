@@ -21,7 +21,8 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 window.addEventListener('load', function () {
-
+    localStorage.setItem('isPageOpen', "true");
+});
 
 window.addEventListener("beforeunload", function () {
     localStorage.setItem('isPageOpen', "false");
